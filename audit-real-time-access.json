@@ -1,0 +1,28 @@
+{
+  "endpoint": "/audit/real-time-access",
+  "method": "GET",
+  "description": "Returns real-time access endpoints and verification status",
+  "response": {
+    "data_streams": [
+      {
+        "name": "POS_TRANSACTION_STREAM",
+        "endpoint": "/api/pos-pulse",
+        "update_frequency": "hourly",
+        "verification": "blockchain_attested",
+        "last_update": "2026-02-12T22:00:00+08:00"
+      },
+      {
+        "name": "OCCUPANCY_METRICS",
+        "endpoint": "/api/occupancy",
+        "update_frequency": "hourly",
+        "verification": "IoT_sensors_plus_manual",
+        "last_update": "2026-02-12T22:00:00+08:00"
+      }
+    ],
+    "access_verification": {
+      "audit_trail_available": true,
+      "on_chain_verification": true,
+      "data_integrity": "tamper_evident"
+    }
+  }
+}

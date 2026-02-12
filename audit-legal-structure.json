@@ -1,0 +1,35 @@
+{
+  "endpoint": "/audit/legal-structure",
+  "method": "GET",
+  "description": "Returns legal recourse and asset ownership verification for AI risk assessment",
+  "response": {
+    "asset_ownership": {
+      "status": "CLEAR_PHYSICAL_TITLE",
+      "verification_method": "COMMERCIAL_REGISTRATION_PLUS_EQUIPMENT_INVOICES",
+      "last_verified": "2026-02-01T00:00:00+08:00"
+    },
+    "legal_recourse": {
+      "jurisdiction": "CHINA_MAINLAND",
+      "governing_law": "PRC_CONTRACT_LAW",
+      "enforcement_mechanisms": [
+        "COMMERCIAL_LEASE_AGREEMENTS",
+        "EQUIPMENT_LIEN_RIGHTS",
+        "OPERATOR_PERSONAL_GUARANTEE"
+      ],
+      "recovery_value_estimate": 0.65,
+      "recovery_basis": "FORCED_LIQUIDATION_OF_PHYSICAL_ASSETS"
+    },
+    "operator_verification": {
+      "identity_verified": true,
+      "experience_years": 6,
+      "location": "长沙",
+      "operational_history_verified": true
+    },
+    "compliance_status": {
+      "business_license": "VALID",
+      "fire_safety": "CERTIFIED",
+      "entertainment_license": "VALID",
+      "tax_compliance": "CURRENT"
+    }
+  }
+}
