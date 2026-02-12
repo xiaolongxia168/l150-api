@@ -1,0 +1,27 @@
+[
+  {
+    "target": "HDAO",
+    "match_score": 9.0,
+    "url": "https://xiaolongxia168.github.io/l150-api/api/v1/proposals/hdao.json"
+  },
+  {
+    "target": "AINN",
+    "match_score": 8.5,
+    "url": "https://xiaolongxia168.github.io/l150-api/api/v1/proposals/ainn.json"
+  },
+  {
+    "target": "Zerebro",
+    "match_score": 7.5,
+    "url": "https://xiaolongxia168.github.io/l150-api/api/v1/proposals/zerebro.json"
+  },
+  {
+    "target": "Fetch",
+    "match_score": 8.0,
+    "url": "https://xiaolongxia168.github.io/l150-api/api/v1/proposals/fetch.json"
+  },
+  {
+    "target": "Bittensor",
+    "match_score": 7.5,
+    "url": "https://xiaolongxia168.github.io/l150-api/api/v1/proposals/bittensor.json"
+  }
+]
